@@ -42,10 +42,37 @@ Initialized empty Git repository in C:/Users/Mila/Documents/Practica-git/.git/
 
 ### Creación de un commit inicial (add, status, commit, log)
 ```
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git add .
 
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Documentacion.md
+        new file:   README.md
+
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git commit -m "añado README.md"
+[master (root-commit) 7e46b0f] añado README.md
+ 2 files changed, 51 insertions(+)
+ create mode 100644 Documentacion.md
+ create mode 100644 README.md
 ```
 
-Creación del repositorio en Github,
-Añadir el remoto al repositorio local (branch, remote),
-Subir el repositorio a Github (push) y
-Comprobar que está subido a Github.
+##  Creación del repositorio en Github y añadimos de colaborador al profesor. 
+![Error](img/Captura%20de%20pantalla%202024-01-15%20090259.png)
+![Error](img/Captura%20de%20pantalla%202024-01-15%20090539.png)
+
+## Añadir el remoto al repositorio local (branch, remote)
+```
+```
+
+## Subir el repositorio a Github (push) y comprobar que está subido a Github.
+```
+```
