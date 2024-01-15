@@ -125,4 +125,16 @@ To https://github.com/mrubiofiestas/Practica-git.git
 
 ## Subir el repositorio a Github (push) y comprobar que está subido a Github.
 ```
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.31 KiB | 1.31 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mrubiofiestas/Practica-git.git
+   c03606a..7a3caaa  master -> master
 ```
+![Error](img/Captura%20de%20pantalla%202024-01-15%20212240.png)
