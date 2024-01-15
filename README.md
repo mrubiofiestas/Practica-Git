@@ -43,26 +43,49 @@ Initialized empty Git repository in C:/Users/Mila/Documents/Practica-git/.git/
 ### Creación de un commit inicial (add, status, commit, log)
 ```
 Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Documentacion.md
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        img/
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
 $ git add .
+
 
 Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
 $ git status
 On branch master
-
-No commits yet
-
 Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   Documentacion.md
-        new file:   README.md
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   img/Captura de pantalla 2024-01-15 090259.png
+        new file:   img/Captura de pantalla 2024-01-15 090539.png
+        renamed:    Documentacion.md -> index.html
 
 
 Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
-$ git commit -m "añado README.md"
-[master (root-commit) 7e46b0f] añado README.md
- 2 files changed, 51 insertions(+)
- create mode 100644 Documentacion.md
- create mode 100644 README.md
+$ git commit -m "añado img"
+[master c03606a] añado img
+ 4 files changed, 31 insertions(+), 4 deletions(-)
+ create mode 100644 img/Captura de pantalla 2024-01-15 090259.png
+ create mode 100644 img/Captura de pantalla 2024-01-15 090539.png
+ rename Documentacion.md => index.html (100%)
+
+
+ Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git log --oneline
+c03606a (HEAD -> master) añado img
+7e46b0f añado README.md
 ```
 
 ##  Creación del repositorio en Github y añadimos de colaborador al profesor. 
@@ -71,6 +94,33 @@ $ git commit -m "añado README.md"
 
 ## Añadir el remoto al repositorio local (branch, remote)
 ```
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git branch
+* master
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git remote add origin https://github.com/mrubiofiestas/Practica-git.git
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git remote
+origin
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git remote -v
+origin  https://github.com/mrubiofiestas/Practica-git.git (fetch)
+origin  https://github.com/mrubiofiestas/Practica-git.git (push)
+
+Mila@DESKTOP-014ABM1 MINGW64 ~/Documents/Practica-git (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 53.20 KiB | 13.30 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mrubiofiestas/Practica-git.git
+ * [new branch]      master -> master
 ```
 
 ## Subir el repositorio a Github (push) y comprobar que está subido a Github.
