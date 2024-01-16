@@ -167,7 +167,7 @@ To https://github.com/mrubiofiestas/Practica-git.git
 
 ### Uso de Git mediante la interfaz de VSCode:
 * Creación de otro commit
-![Error](img/commit.png)
+
 
 
 
