@@ -143,5 +143,6 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/mrubiofiestas/Practica-git.git
  * [new branch]      master -> master
 ```
+* Y comprobamos si esta subido a GitHub.
 
 ![Error](img/Captura%20de%20pantalla%202024-01-15%20212240.png)
