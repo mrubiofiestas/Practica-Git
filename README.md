@@ -161,4 +161,17 @@ To https://github.com/mrubiofiestas/Practica-git.git
 ![Error](img/pagina.png)
 
 * Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
+![Error](img/ENLACE.png)
+
+![Error](img/mostrar%20pagina.png)
+
+### Uso de Git mediante la interfaz de VSCode:
+* Creación de otro commit
+![Error](img/commit.png)
+
+
+
+Subir el repositorio a Github,
+Comprobar que está subido a Github y
+Ver el listado de commit desde Github.
 
