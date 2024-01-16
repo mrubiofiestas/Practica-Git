@@ -8,6 +8,8 @@
 
 * Curso escolar: **DAW 23/24**
 
+La pagina web se puede observar en este [enlace](https://mrubiofiestas.github.io/Practica-git/)
+
 ### Creación del repositorio en nuestro ordenador (init)
 ```
 Mila@DESKTOP-014ABM1 MINGW64
@@ -146,3 +148,16 @@ To https://github.com/mrubiofiestas/Practica-git.git
 * Y comprobamos si esta subido a GitHub.
 
 ![Error](img/Captura%20de%20pantalla%202024-01-15%20212240.png)
+
+### Publicación en Github Pages:
+* Configurar el repositorio para que publique el directorio raíz en Github Pages.
+* Mostrar los despliegues (deployments).
+![Error](img/cambiamos%20la%20raiz.png)
+
+* Y damos en guardar.
+![Error](img/git%20pages.png)
+
+* Mostramos la página web.
+![Error](img/pagina.png)
+
+* Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web.
