@@ -168,11 +168,11 @@ To https://github.com/mrubiofiestas/Practica-git.git
 ### Uso de Git mediante la interfaz de VSCode:
 * Creación de otro commit
 
-![Error](img/committ.png)
+![Error]()
 
 * Subir el repositorio a Github
 
-![Error](img/listo.png)
+![Error]()
 
 * Comprobar que está subido a Github y
 Ver el listado de commit desde Github.
