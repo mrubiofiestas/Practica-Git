@@ -9,7 +9,7 @@ body {
 }
 
 .fondo {
-    background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/402027485_876666147184780_6017131208447181590_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=783fdb&_nc_ohc=2ZL73iqXJB0AX95fXMg&_nc_ht=scontent-mad1-1.xx&oh=00_AfCwi8DVZgn4KTMw7amKY7hq9dCxGoeOjP3ZpQOZ2LuGjw&oe=65B30CC6);
+    background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/402027485_876666147184780_6017131208447181590_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=783fdb&_nc_ohc=2ZL73iqXJB0AX95fXMg&_nc_ht=scontent-mad1-1.xx&oh=00_AfCwi8DVZgn4KTMw7amKY7hq9dCxGoeOjP3ZpQOZ2LuGjw&oe=65B30CC6");
     padding: 15%;
     background-size: cover;
     margin: 0;
